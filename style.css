@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Agbalumo');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
 *{
     padding: 0;
     margin: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 body{
-    background-color: #21201e;
+    background-color: #212021;
 }
 .nav_bar{
     display: flex; /* 1 */
@@ -45,3 +50,164 @@ body{
     height: 100px;
     width: 100px;
 }
+/* MAIN */
+.main_content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    border: 1px solid white;
+}
+@media (max-width: 800px) {
+.main_content {
+      flex-direction: column;
+    }
+  }
+.box_1{
+    height: 200px;
+    width: 350px;
+    background-color: #111112;
+    margin: 50px 0 0 50px;
+    outline: 2px solid #fff;
+    text-align: center;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box_1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.box_1 h1{
+    margin-top: 50px;
+}
+.box_1 a{
+    color: #fff;
+}
+.box_2{
+    height: 200px;
+    width: 350px;
+    background-color: #111112;
+    margin: 50px 0 0 50px;
+    text-align: center;
+    font-family: Poppins;
+    outline: 2px solid white;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box_2:hover{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.box_2 h1{
+    margin-top: 50px;
+}
+.box_2 a{
+    color: #fff;
+    pointer-events: none;
+}
+.box_3{
+    height: 200px;
+    width: 350px;
+    background-color: #111112;
+    margin: 50px 0 0 50px;
+    text-align: center;
+    font-family: Poppins;
+    outline: 2px solid white;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box_3:hover{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.box_3 h1{
+    margin-top: 50px;
+}
+.box_3 a{
+    color: #fff;
+    pointer-events: none;
+}
+.box_4{
+    height: 200px;
+    width: 350px;
+    background-color: #111112;
+    margin: 50px 0 0 50px;
+    text-align: center;
+    font-family: Poppins;
+    outline: 2px solid white;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box_4:hover{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.box_4 h1{
+    margin-top: 50px;
+}
+.box_4 a{
+    color: #fff;
+    pointer-events: none;
+}
+.box_5{
+    height: 200px;
+    width: 350px;
+    background-color: #111112;
+    margin: 50px 0 0 50px;
+    text-align: center;
+    font-family: Poppins;
+    outline: 2px solid white;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box_5:hover{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.box_5 h1{
+    margin-top: 80px;
+}
+.box_5 a{
+    color: #fff;
+    pointer-events: none;
+}
+.box_6{
+    height: 200px;
+    width: 350px;
+    background-color: #111112;
+    margin: 50px 0 0 50px;
+    text-align: center;
+    font-family: Poppins;
+    outline: 2px solid white;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box_6:hover{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.box_6 h1{
+    margin-top: 80px;
+}
+.box_6 a{
+    color: #fff;
+    pointer-events: none;
+}
+/* FOOTER */
+.foot_bar{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #44473f;
+    color: white;
+    text-align: center;
+}
+.foot_bar p{
+    text-align: center;
+    padding: 20px;
+}
+.social_med img:hover{
+    opacity: 0.5;
+}
+.social_med img{
+
+    cursor: pointer;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
