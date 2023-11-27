@@ -44,6 +44,28 @@ body{
     color: #6d6db9;
 }
 /* TITLE */
+@media only screen and (max-width: 406px) {
+    .head_1 h1{
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        margin-left: 30%;
+        margin-top: -20%;
+    }
+    .head_1 h6{
+        color: #fff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 30%;
+    }
+    .hr_1{
+        margin-top: 10%;
+    }
+    .head_1 img{
+        width: 20%;
+        height: auto;
+        margin: 5%;
+    }
+}
 @media only screen and (min-width: 25.5em){
     .head_1 h1{
         color: #fff;
@@ -155,23 +177,45 @@ body{
 
 
 /* MAIN */
-@media only screen and (max-width: 25.5em){
-.main_content{   
-    border: 2px solid #7ee343;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 0 30px 50px;
-    margin: 0px 0 50px 10px;
-    justify-content: center;
+@media only screen and (max-width: 406px){
+    .main_content{   
+         border: 2px solid #7ee343;
+         padding: 0px;
+         margin: 20px 0px 20px 0px;
+         display:flex;
+         flex-wrap: wrap;
+         justify-content: center;
+    }
+    .box_1 , .box_2 , .box_3 , .box_4 , .box_5 , .box_6{
+        width: 250px;
+        height: 150px;
+        padding: 0px;
+        margin: 35px 50px 15px 50px;
+        border: 2px solid rgb(61, 77, 220)
+    }
+    .box_1 ,  .box_2 , .box_3 , .box_4 , .box_5 , .box_6 , h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+  
+    }
+
 }
+@media only screen and (min-width: 992px){
+    .main_content{
+        border: 2px solid #7ee343;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        margin: 30px;
+        justify-content: center;
+    }
 }
-.main_content{
-    border: 2px solid #7ee343;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px 0 30px 50px;
-    margin: 10px 0 50px 0px;
-}
+
+
+/* BOX-SIZING .............BOXES..............STARTING .................*/
+
+
+/* .................BOX 1 ..........*/
 .box_1{
     height: 200px;
     width: 400px;
@@ -195,6 +239,10 @@ body{
 .box_1 a{
     color: #fff;
 }
+
+
+/*................BOX 2 .................*/
+
 .box_2{
     height: 200px;
     width: 400px;
