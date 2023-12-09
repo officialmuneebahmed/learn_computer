@@ -40,7 +40,7 @@ body{
 @media (max-width: 480px){
 .main_content{
         margin-left: 1%;
-        background-color: rgb(47, 89, 44)
+        background-color: rgb(47, 89, 44);
         height: auto;
         width: auto;
         border: 2px solid rebeccapurple;
@@ -94,6 +94,13 @@ body{
     background-color: #8c20c3;
     padding: 2%;
     border-radius: 2%;
+}
+#osi_gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
 }
 
 /* FOOTER */

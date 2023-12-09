@@ -13,10 +13,10 @@
             <nav class="nav_bar">
                 <ul>
                     <h1 id="LCO_nav_bar">Learn Computer</h1>
-                    <li>|<a href="#">HOME</a></li>
-                    <li>|<a href="#">CONTENTS</a></li>
-                    <li>|<a href="about_us.html">ABOUT-US</a></li>
-                    <li>|<a href="#">BRIEF-LEARNING</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONTENTS</a></li>
+                    <li><a href="about_us.html">ABOUT-US</a></li>
+                    <li><a href="#">BRIEF-LEARNING</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -35,62 +35,62 @@
                     <h6>The Easy Way To Learn.</h6>
             </div>
         <hr class="hr_1">
-        <h2>Card</h2>
+        <h2>CONTENTS</h2>
         
         <div class="mard">
         <div class="card">
-          <img src="LCO.png" alt="Avatar" style="width:100%">
+         <a href="osi_model.html"><img src="front_imgs/OSI_front.drawio_FINAL.png" alt="osi_model_pic" style="width:100%"> </a>
           <div class="container">
-            <h4><b>John Doe</b></h4> 
-            <p>Architect & Engineer</p> 
+            <h4><b>7 Layers of OSI Model</b></h4> 
+            <sub><div id="date"></div></sub>
           </div>
         </div>
 
         <div class="card">
-          <img src="LCO.png" alt="Avatar" style="width:100%">
+          <a href="#"><img src="front_imgs/FRONT_PIC_NETWORK_.drawio.png" alt="netwok_topology_pic" style="width:100%"></a>
           <div class="container">
-            <h4><b>John Doe</b></h4> 
-            <p>Architect & Engineer</p> 
+            <h4><b>Network Topologies</b></h4> 
+            <sub>Lorem ipsum Date/Day</sub> 
           </div>
         </div>
         
         <div class="card">
           <img src="LCO.png" alt="Avatar" style="width:100%">
           <div class="container">
-            <h4><b>John Doe</b></h4> 
-            <p>Architect & Engineer</p> 
+            <h4><b>Lorem ipsum Topic</b></h4> 
+            <sub> Lorem ipsum Date/Day </sub> 
           </div>
         </div>
 
         <div class="card">
           <img src="LCO.png" alt="Avatar" style="width:100%">
           <div class="container">
-            <h4><b>John Doe</b></h4> 
-            <p>Architect & Engineer</p> 
+            <h4><b>Lorem ipsum Topic</b></h4> 
+            <sub>Lorem ipsum Date/Day</sub> 
           </div>
         </div>
 
         <div class="card">
           <img src="LCO.png" alt="Avatar" style="width:100%">
           <div class="container">
-            <h4><b>John Doe</b></h4> 
-            <p>Architect & Engineer</p> 
+            <h4><b>Lorem ipsum Topic</b></h4> 
+            <sub>Lorem ipsum Date/Day</sub> 
           </div>
         </div>
 
         <div class="card">
           <img src="LCO.png" alt="Avatar" style="width:100%">
           <div class="container">
-            <h4><b>John Doe</b></h4> 
-            <p>Architect & Engineer</p> 
+            <h4><b>Lorem ipsum Topic</b></h4> 
+            <sub>Lorem ipsum Date/Day</sub> 
           </div>
         </div>
         
         <div class="card">
           <img src="LCO.png" alt="Avatar" style="width:100%">
           <div class="container">
-            <h4><b>John Doe</b></h4> 
-            <p>Architect & Engineer</p> 
+            <h4><b>Lorem ipsum Topic</b></h4> 
+            <sub>Lorem ipsum Date/Day</sub> 
           </div>
         </div>
         </div>
@@ -117,8 +117,17 @@
 
         <!-- JAVASCRIPT SECTION-->
 
-        <script src="script.js">
-
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+        <script>
+          $(document).ready(function(){
+            var interval = setInterval(function(){
+              var momentNow = moment();
+              $("#date").html(momentNow.format("dddd").substring(0,3).toUpperCase()+", "+
+              momentNow.format("DD MMM YYYY"));
+            })
+          })
         </script>
     </body>
 </html>

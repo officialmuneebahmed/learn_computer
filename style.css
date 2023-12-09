@@ -15,28 +15,29 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 body{
     margin: 0;
-    background-color: #282828;
+    background-image: url(front_imgs/black_thread.png);
 }
 /* NAV-BAR */
 
 #LCO_nav_bar{
     margin-left: 30px;
-    margin-top: 10px;
     font-family: Arial, Sans-serif;
     text-align: left;
     color: #fff;
-    padding: 5px;
+   
 }
 .nav_bar{
-    background-color: #000;
+    background-color: #282828;
+    box-shadow: 0 12px 8px 0 rgba(0,0,0,0.2);
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:  0 15px;
+    
 
 }
 .nav_bar ul{
@@ -44,21 +45,20 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    margin-top: 0;
 }
 .nav_bar a{
     color: #fff;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     display: block;
     text-align: center;
-    font-family: Lexend;
+    font-family: Lexend, Arial, Helvetica, sans-serif;
 }
 .nav_bar a{
     transition: 0.7s;
 }
 .nav_bar a:hover{
-    background-color: #282828;
+    background-color: #181818;
 }
 
 .hamburger{
@@ -252,8 +252,11 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     padding: 10px;
+    margin-left: 5px;
     width: 27em;
     height: auto;
+    background-color: #181818;
+    
   }
   
   .card:hover {
@@ -263,6 +266,7 @@ body{
   
   .container {
     padding: 2px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .mard{
     color: #fff;
