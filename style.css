@@ -64,6 +64,7 @@ body{
 .hamburger{
     display: none;
     cursor: pointer;
+    margin-left: 10px;
 
 }
 .bar{
@@ -101,6 +102,7 @@ body{
         text-align: center;
         transition: 0.3s;
         z-index: 2;
+        
     }
     .nav_bar ul li{
         margin: 16px 0px;
@@ -109,6 +111,9 @@ body{
     .nav_bar ul.active{
         left: 0;
         
+    }
+    #LCO_nav_bar{
+        margin: 26px 0px;
     }
 
 }
@@ -119,7 +124,7 @@ body{
         color: #fff;
         font-family: 'Courier New', Courier, monospace;
         font-size: 16px;
-        margin-left: 30%;
+        margin-left:27%;
         margin-top: -20%;
     }
     .head_1 h6{
