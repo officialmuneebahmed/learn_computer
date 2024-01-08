@@ -1,3 +1,109 @@
+body{
+    background-color: #282828;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#net_topo_gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+}
+
+.heading{
+    text-align: center;
+
+}
+
+h2{
+    border: 1px solid rgb(18, 86, 196);
+    background-color: mediumslateblue;
+    padding: 10px;
+    color: #282828;
+}
+
+/* main content */
+.main_content{
+    margin-left: 15%;
+    background-color: #212121;
+    height: auto;
+    width: 140vh;
+    border: 2px solid rebeccapurple;
+    line-height: 25px;
+    
+}
+@media (max-width: 800px){
+.main_content{
+        margin-left: 1%;
+        background-color: #212121;
+        height: auto;
+        width: auto;
+        border: 2px solid rebeccapurple;
+    
+        }    
+    }
+@media (max-width: 640px){
+.main_content{
+        margin-left: 17%;
+        background-color: #212121;
+        height: auto;
+        width: 70vh;
+        border: 2px solid rebeccapurple;
+
+        }    
+    }
+@media (max-width: 480px){
+.main_content{
+        margin-left: 1%;
+        background-color: rgb(47, 89, 44);
+        height: auto;
+        width: auto;
+        border: 2px solid rebeccapurple;
+    
+        }    
+    }
+
+    /* end 
+    
+    @media (max-width: 800px)
+    @media (max-width: 640px)
+    @media (max-width: 480px)
+    */
+.main_content img{
+    margin: 3%;
+    height: 100vh;
+    width: auto;
+}
+@media (max-width: 800px){
+    .main_content img{
+        margin: 1%;
+        height: 110vh;
+        width: auto;
+    }
+}
+@media (max-width: 640px){
+    .main_content img{
+        margin: 2.5%;
+        height: 50vh;
+        width: auto;
+    }  
+}
+@media (max-width: 480px){
+    .main_content img{
+        margin: 4%;
+        height: 60vh;
+        width: auto;
+    } 
+}
+
+/* end */
+.main_content{
+    padding: 2%;
+}
+.main_content p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 

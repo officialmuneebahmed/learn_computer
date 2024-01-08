@@ -15,7 +15,8 @@ body{
     height: auto;
     width: 140vh;
     border: 2px solid rebeccapurple;
-    border-radius: 1%;
+    line-height: 25px;
+    
 }
 @media (max-width: 800px){
 .main_content{
@@ -24,7 +25,7 @@ body{
         height: auto;
         width: auto;
         border: 2px solid rebeccapurple;
-        border-radius: 1%;
+    
         }    
     }
 @media (max-width: 640px){
@@ -34,7 +35,7 @@ body{
         height: auto;
         width: 70vh;
         border: 2px solid rebeccapurple;
-        border-radius: 1%;
+
         }    
     }
 @media (max-width: 480px){
@@ -44,7 +45,7 @@ body{
         height: auto;
         width: auto;
         border: 2px solid rebeccapurple;
-        border-radius: 1%;
+    
         }    
     }
 
@@ -86,14 +87,14 @@ body{
     padding: 2%;
 }
 .main_content p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* OSI Def */
 .main_content .osi_def{
     background-color: #8c20c3;
     padding: 2%;
-    border-radius: 2%;
+    border-radius: 20pt;
 }
 #osi_gif{
     display: block;

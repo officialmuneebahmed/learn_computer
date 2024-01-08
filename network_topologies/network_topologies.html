@@ -9,6 +9,117 @@
         <title> Network Topologies</title>
     </head>
     <body>
+        <div class="heading">
+            <h1> Network Topologies </h1>
+        </div>
+            <hr>
+        <div class="main_content">
+            <img id="net_topo_gif" src="net_topo.gif">
+            <h4> What is Network Topology? </h4>
+            <p>
+                A network Topology refers to the physical or logical layout or arrangement
+                of connected devices(nodes) in a computer network. The network topology 
+                influences the efficieny, reliability, and scalability of a network.
+            </p>
+            <i>>> Certainly we have different network topologies discussed below: </i>
+            <h2>1. BUS TOPOLOGY</h2>
+            <p>
+                In a bus topology, all devices share a single communication line (the bus).
+                Data is transmitted along the bus with each end consists of a terminator.
+            </p>
+            <h4>Advantages: </h4>
+                <ul>
+                    <li>Simple and easy to implement.</li>
+                    <li>Cost-effective for small networks.</li>
+                </ul>
+            <h4>Disadvantages: </h4>
+                <ul>
+                    <li>Performance degrades as more devices are added.</li>
+                    <li>If main cable fails entire network will be affected.</li>
+                </ul>
+                <hr>
+            <h2>2. STAR TOPOLOGY </h2>
+            <p>
+                In a star topology, all devices are connected to a central hub
+                or switch. The hub(or switch) manages and controls communcation 
+                between nodes.
+            </p>
+            <h4>Advantages: </h4>
+                <ul>
+                    <li>Centralized management and easy troubleshooting<./li>
+                    <li>Issues with one device(node) do not affect other nodes.</li>
+                </ul>
+            <h4>Disadvantages: </h4>
+                <ul>
+                    <li>Dependancy on the central hub, its failure will affect the 
+                        entire network.</li>
+                    <li>Expensive to implement for larger networks as <i>n-cables</i> will
+                        be required for <i>n-nodes</i></li>
+                </ul>
+            <h2>3. RING TOPOLOGY </h2>
+                <p>
+                    In a ring topology, devices are connected in a cicular fashion(arrangement).
+                    Data can move <i>uni</i> or <i>bi</i> directional, passing throung each node
+                    until it reaches its destination.
+                </p>
+                <h4>Advantages: </h4>
+                    <ul>
+                        <li>NO collions in data transmission.</li>
+                        <li>Simple and easy to install.</li>
+                    </ul>
+                <h4>Disadvantages: </h4>
+                    <ul>
+                        <li>Performance degrades as more devices are added.</li>
+                        <li>Failure of one device or cable can disrupt the entire network.</li>
+                    </ul>
+                <h2>4. MESH TOPOLOGY </h2>
+                    <p>
+                        In a mesh topology, every device or we can say every node is completely
+                        connected to every other node, creating multiple paths for data transmission.
+                    </p>
+                <h4>Advantages: </h4>
+                    <ul>
+                        <li>Failure of one link does not affect the entire network.</li>
+                        <li>Every node is indepented for sending data.</li>
+                        <li>Flawless and reliable communication.</li>
+                        <li>Redundancy and reliability with multiple communication paths.</li>
+                    </ul>
+                <h4>Disadvantages: </h4>
+                    <ul>
+                        <li>Very expensive compare to other topologies.</li>
+                        <li>Complex to manage and configure.</li>
+                        <li>Lots of cabling is required for creating multiple paths.</li>
+                    </ul>
+                <h2>5. HYBRID TOPOLOGY </h2>
+                    <p>
+                        A hybrid topology is a combination of two or more different 
+                        topologies. It can be a combination of [bus and ring] , 
+                        [star or mesh] etc.
+                    </p>
+                <h4>Advantages: </h4>
+                    <ul>
+                        <li>Offer flexibility and customization.</li>
+                        <li>Can meet enterprize needs.</li>
+                        <li>More computers (nodes) can be connected, as workload distributes.</li>
+                    </ul>
+                <h2>6. TREE TOPOLOGY </h2>
+                    <p>
+                        A tree topology is a combination of (two fast and simple)
+                        star and bus topologies, forming a hierarchical struture.
+                    </p>
+                <h4>Advantages: </h4>
+                    <ul>
+                        <li>Scalibility with hierarchical structure.</li>
+                        <li>Centralized management system.</li>
+                        <li>Simple and easy to configure and troubleshoot.</li>
+                    </ul>
+                <h4>Disadvantages: </h4>
+                    <ul>
+                        <li>Dependancy on the central hub or the root node.</li>
+                        <li>Issues with the root node can affect the entire branch.</li>
+                        <li>Its crucial for the root node to work properly.</li>
+                    </ul>
+            </div>
 
         <footer>
             <div class="foot_bar">
