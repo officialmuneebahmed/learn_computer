@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient(to right top, #8812f1, #f7a963);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    
+}
+h1{
+    font-family: cursive, Arial, Helvetica, sans-serif ;
+    font-size: 4rem;
+}
+#control-center{
+    
+    
+}
+
+#inputValue{
+    background-color: #000000;
+    color: #fff;
+    border: 2px solid red;
+    border-radius: 1rem;
+    width: 30%;
+    padding: 0.8%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: 700;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.btn{
+    border-radius: 15rem;
+    border: none;
+    background-image: linear-gradient(to right top, #8812f1, #f7a963);
+    color: #fff;
+    width: 10%;
+    padding: 1%;
+    margin: 2%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #8812f1, #f7a963);
+    transition: ease-in-out 0.2s;
+    color: #000000;
+    border: none;
+    opacity: 0.7;
+}
+.main-todo-div{
+    width: 50%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25rem;
+    text-align:justify;
+    padding: 0.9rem;
+    /* border: 2px solid red; */
+}
+li{
+    /* margin-left: 5rem; */
+    /* border: 2px solid blue; */
+    list-style: decimal;
+    background-color: #e8b827;
+    padding: 0.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border-radius: 0.5rem;
+}
+.deleteBtn{
+    margin-left: 5rem;
+    width: 5rem;
+    height: 2rem;
+}
+.deleteBtn:hover{
+    cursor: pointer;
+}
