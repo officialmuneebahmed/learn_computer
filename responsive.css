@@ -1,0 +1,2196 @@
+/* ........................... RESPONSIVE .................... */
+
+
+@media (min-width: 320.5px) and (max-width: 419.5px){
+
+    /* ..................................... DIV-1 CONTROL h1 ............................. */
+    #div-1-control h1{
+        font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26pt;
+        color: #000;
+        margin: 2em 0em 0em 4em;
+        padding: 0.5em;
+        width:fit-content;
+        border: 1px solid #000000;
+        border-radius: 0.5em;
+    }
+
+
+            /* ................................... BURGER ............................ */
+
+            .fa-bars{
+                margin: 2em 0em 0em 3em;
+            }
+            .fa-bars:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }
+        
+          /* ................................... CROSS ............................ */
+        
+        
+            .fa-xmark{
+                margin: 2em 0em 0em 0em;
+            }
+            .fa-xmark:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }   
+            
+            /* SIDE NAV OPEN */
+            .side-nav-div{
+                width: 100%;
+                height: 90vh;
+                margin-left: -100%;
+                background: transparent;
+                border: 1px solid #000;
+                text-align: center;
+            }
+            .active.side-nav-div{
+                margin-left: 0vw;
+                transition: 0.5s ease-in-out;
+                background: transparent;
+                backdrop-filter: blur(16px);
+        
+            }
+        
+            .side-nav-div ul{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                border: 1px solid #000;
+                backdrop-filter: blur(16px);
+            }
+            .side-nav-div ul li a:hover{
+                border-bottom: 2px solid #000;
+                color: #000;
+                
+            }
+        
+                /* SIDE NAV CLOSE */
+                
+                .side-nav-div{
+                    margin-top: -13vw;
+                    transition: 0.5s ease;
+                    padding: 0vw;
+                    width: 100%;
+                    height: 90vh;
+                    margin-left: -100%;
+                    background: transparent;
+                    border: 1px solid #000;
+                    text-align: center;
+                   
+                }
+
+                .active.side-nav-div{
+                    margin-left: 0vw;
+                    transition: 0.5s ease-out;
+                    background: transparent;
+                    backdrop-filter: blur(16px);
+            
+                }
+
+        
+            /* ................................... NAV BAR ............................ */
+        
+            nav ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+                display: none;
+            }
+        
+            nav{
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+
+         /* ..................................... FOOTER ............................. */
+
+    /* ..................................... FOOTER MAIN ............................. */
+    footer ul{
+        height: auto;
+        padding: 1em 0em;
+        width: 100%;
+        background-color: #1c1e24;
+        margin: 10em 0em 0em 0em;
+        
+    }
+
+/* ..................................... FOOTER hr-2 ............................. */
+    #hr-2{
+        display: block;
+        margin: 40em 0em 0em 1.5em ;
+        width: 90%;
+        opacity: 0.4;
+    }
+
+
+
+/* ..................................... EMAIL ............................. */
+
+        .email{
+            position: absolute;
+            margin: 50em 0em 0em -3em;
+           
+            
+        }
+        .email input{
+            width: 20em;
+            height: 3em;
+            padding: 0em 1em;
+            border-radius: 0.5em;
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #b6c2d4;
+            
+        }
+        .email h3{
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #fff;
+            margin: -2em 0em 1em 0em;
+            text-align: center;
+        }
+
+        .fa-comment{
+            padding-left: 2em;
+        }
+        
+    /* ..................................... SOCIAL LINKS ............................. */
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin: 0 auto;
+        width: 15em;
+        justify-content: space-evenly;
+        margin: 40em 0em 0em -2.5em;
+        position: absolute;
+            
+    }
+    .social li a{
+        color: #fff;
+        
+    }
+    .social li{
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .social li a:hover{
+        color: #3d4fd2dc;
+        cursor: pointer;
+    } 
+
+    /* ..................................... FOOTER LINKS ............................. */
+
+    .foot-links{
+        width: 50%;
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        text-align: center;
+        margin: 20em 0em 0em 0em;
+        position: absolute;
+    }
+    .foot-links li{
+        list-style-type: none;
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .foot-links li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .foot-links li a:hover{
+        color: #3d4fd2dc;
+    }
+
+    /* ..................................... FOOTER IMG............................. */
+    #foot-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 1em 0em 0em 1em;
+        justify-content: center;
+        position: absolute;
+    }
+    #foot-img:hover{
+        border: 1px solid #fff;
+    }
+
+ 
+}
+
+@media (min-width: 420px) and (max-width: 519.5px){
+
+    /* ..................................... DIV-1 CONTROL h1 ............................. */
+    #div-1-control h1{
+        font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36pt;
+        color: #000;
+        margin: 2em 0em 0em 3em;
+        padding: 0.5em;
+        width:fit-content;
+        border: 1px solid #000000;
+        border-radius: 0.5em;
+    }
+
+
+            /* ................................... BURGER ............................ */
+
+            .fa-bars{
+                margin: 2em 0em 0em 3em;
+            }
+            .fa-bars:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }
+        
+          /* ................................... CROSS ............................ */
+        
+        
+            .fa-xmark{
+                margin: 2em 0em 0em 0em;
+            }
+            .fa-xmark:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }   
+            
+            /* SIDE NAV OPEN */
+            .side-nav-div{
+               
+                width: 100%;
+                height: 90vh;
+                margin-left: -100%;
+                background: transparent;
+                border: 1px solid #000;
+                text-align: center;
+            }
+            .active.side-nav-div{
+                margin-left: 0vw;
+                transition: 0.5s ease-in-out;
+                background: transparent;
+                backdrop-filter: blur(16px);
+        
+            }
+        
+            .side-nav-div ul{
+               
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                border: 1px solid #000;
+                backdrop-filter: blur(16px);
+            }
+            .side-nav-div ul li a:hover{
+                border-bottom: 2px solid #000;
+                color: #000;
+                
+            }
+        
+                /* SIDE NAV CLOSE */
+                
+                .side-nav-div{
+                    margin-top: -13vw;
+                    transition: 0.5s ease;
+                    padding: 0vw;
+                    width: 100%;
+                    height: 90vh;
+                    margin-left: -100%;
+                    background: transparent;
+                    border: 1px solid #000;
+                    text-align: center;
+                   
+                }
+
+                .active.side-nav-div{
+                    margin-left: 0%;
+                    transition: 0.5s ease-out;
+                    background: transparent;
+                    backdrop-filter: blur(16px);
+            
+                }
+
+        
+            /* ................................... NAV BAR ............................ */
+        
+            nav ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+                display: none;
+            }
+        
+            nav{
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+
+         /* ..................................... FOOTER ............................. */
+
+    /* ..................................... FOOTER MAIN ............................. */
+    footer ul{
+        height: auto;
+        padding: 1em 0em;
+        width: 100%;
+        background-color: #1c1e24;
+        margin: 10em 0em 0em 0em;
+        
+    }
+
+/* ..................................... FOOTER hr-2 ............................. */
+    #hr-2{
+        display: block;
+        margin: 40em 0em 0em 1.5em ;
+        width: 90%;
+        opacity: 0.4;
+    }
+
+    footer p{
+        padding: 0em 1em;
+    }
+/* ..................................... EMAIL ............................. */
+
+        .email{
+            position: absolute;
+            margin: 50em 0em 0em 0em;
+           
+            
+        }
+        .email input{
+            width: 20em;
+            height: 3em;
+            padding: 0em 1em;
+            border-radius: 0.5em;
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #b6c2d4;
+            
+        }
+        .email h3{
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #fff;
+            margin: -2em 0em 1em 0em;
+            text-align: center;
+        }
+
+        .fa-comment{
+            padding-left: 2em;
+        }
+        
+    /* ..................................... SOCIAL LINKS ............................. */
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin: 0 auto;
+        width: 15em;
+        justify-content: space-evenly;
+        margin: 40em 0em 0em 0.5em;
+        position: absolute;
+            
+    }
+    .social li a{
+        color: #fff;
+        
+    }
+    .social li{
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .social li a:hover{
+        color: #3d4fd2dc;
+        cursor: pointer;
+    } 
+
+    /* ..................................... FOOTER LINKS ............................. */
+
+    .foot-links{
+        width: 50%;
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        text-align: center;
+        margin: 20em 0em 0em 1em;
+        position: absolute;
+    }
+    .foot-links li{
+        list-style-type: none;
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .foot-links li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .foot-links li a:hover{
+        color: #3d4fd2dc;
+    }
+
+    /* ..................................... FOOTER IMG............................. */
+    #foot-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 5em 0em 0em 3em;
+        justify-content: center;
+        position: absolute;
+    }
+    #foot-img:hover{
+        border: 1px solid #fff;
+    }
+
+ 
+}
+
+
+@media (min-width: 520px) and (max-width: 619.5px){
+
+    /* ..................................... DIV-1 CONTROL h1 ............................. */
+    #div-1-control h1{
+        font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36pt;
+        color: #000;
+        margin: 2em 0em 0em 4.5em;
+        padding: 0.5em;
+        width:fit-content;
+        border: 1px solid #000000;
+        border-radius: 0.5em;
+    }
+
+
+            /* ................................... BURGER ............................ */
+
+            .fa-bars{
+                margin: 2em 0em 0em 3em;
+            }
+            .fa-bars:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }
+        
+          /* ................................... CROSS ............................ */
+        
+        
+            .fa-xmark{
+                margin: 2em 0em 0em 0em;
+            }
+            .fa-xmark:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }   
+            
+            /* SIDE NAV OPEN */
+            .side-nav-div{
+                width: 100%;
+                height: 90vh;
+                margin-left: -100%;
+                background: transparent;
+                border: 1px solid #000;
+                text-align: center;
+            }
+            .active.side-nav-div{
+                margin-left: 0vw;
+                transition: 0.5s ease-in-out;
+                background: transparent;
+                backdrop-filter: blur(16px);
+        
+            }
+        
+            .side-nav-div ul{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                border: 1px solid #000;
+                backdrop-filter: blur(16px);
+            }
+            .side-nav-div ul li a:hover{
+                border-bottom: 2px solid #000;
+                color: #000;
+                
+            }
+        
+                /* SIDE NAV CLOSE */
+                
+                .side-nav-div{
+                    margin-top: -13vw;
+                    transition: 0.5s ease;
+                    padding: 0vw;
+                    width: 100%;
+                    height: 90vh;
+                    margin-left: -100%;
+                    background: transparent;
+                    border: 1px solid #000;
+                    text-align: center;
+                   
+                }
+
+                .active.side-nav-div{
+                    margin-left: 0vw;
+                    transition: 0.5s ease-out;
+                    background: transparent;
+                    backdrop-filter: blur(16px);
+            
+                }
+
+        
+            /* ................................... NAV BAR ............................ */
+        
+            nav ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+                display: none;
+            }
+        
+            nav{
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+
+         /* ..................................... FOOTER ............................. */
+
+    /* ..................................... FOOTER MAIN ............................. */
+    footer ul{
+        height: auto;
+        padding: 1em 0em;
+        width: 100%;
+        background-color: #1c1e24;
+        margin: 10em 0em 0em 0em;
+        
+    }
+
+/* ..................................... FOOTER hr-2 ............................. */
+    #hr-2{
+        display: block;
+        margin: 40em 0em 0em 4em ;
+        width: 80%;
+        opacity: 0.4;
+    }
+
+/* ..................................... EMAIL ............................. */
+
+        .email{
+            position: absolute;
+            margin: 50em 0em 0em 2em;
+           
+            
+        }
+        .email input{
+            width: 25em;
+            height: 3em;
+            padding: 0em 1em;
+            border-radius: 0.5em;
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #b6c2d4;
+            
+        }
+        .email h3{
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #fff;
+            margin: -2em 0em 1em 0em;
+            text-align: center;
+        }
+
+        .fa-comment{
+            padding-left: 2em;
+        }
+        
+    /* ..................................... SOCIAL LINKS ............................. */
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin: 0 auto;
+        width: 20em;
+        justify-content: space-evenly;
+        margin: 40em 0em 0em 2.5em;
+        position: absolute;
+            
+    }
+    .social li a{
+        color: #fff;
+        
+    }
+    .social li{
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .social li a:hover{
+        color: #3d4fd2dc;
+        cursor: pointer;
+    } 
+
+    /* ..................................... FOOTER LINKS ............................. */
+
+    .foot-links{
+        width: 50%;
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        text-align: center;
+        margin: 20em 0em 0em 3em;
+        position: absolute;
+    }
+    .foot-links li{
+        list-style-type: none;
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .foot-links li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .foot-links li a:hover{
+        color: #3d4fd2dc;
+    }
+
+    /* ..................................... FOOTER IMG............................. */
+    #foot-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 5em 0em 0em 8em;
+        justify-content: center;
+        position: absolute;
+    }
+    #foot-img:hover{
+        border: 1px solid #fff;
+    }
+
+ 
+}
+
+@media (min-width: 620px) and (max-width: 729.5px){
+
+    /* ..................................... DIV-1 CONTROL h1 ............................. */
+    #div-1-control h1{
+        font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36pt;
+        color: #000;
+        margin: 2em 0em 0em 5.5em;
+        padding: 0.5em;
+        width:fit-content;
+        border: 1px solid #000000;
+        border-radius: 0.5em;
+    }
+
+
+            /* ................................... BURGER ............................ */
+
+            .fa-bars{
+                margin: 2em 0em 0em 3em;
+            }
+            .fa-bars:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }
+        
+          /* ................................... CROSS ............................ */
+        
+        
+            .fa-xmark{
+                margin: 2em 0em 0em 0em;
+            }
+            .fa-xmark:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }   
+            
+            /* SIDE NAV OPEN */
+            .side-nav-div{
+                width: 100%;
+                height: 90vh;
+                margin-left: -100%;
+                background: transparent;
+                border: 1px solid #000;
+                text-align: center;
+            }
+            .active.side-nav-div{
+                margin-left: 0vw;
+                transition: 0.5s ease-in-out;
+                background: transparent;
+                backdrop-filter: blur(16px);
+        
+            }
+        
+            .side-nav-div ul{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                border: 1px solid #000;
+                backdrop-filter: blur(16px);
+            }
+            .side-nav-div ul li a:hover{
+                border-bottom: 2px solid #000;
+                color: #000;
+                
+            }
+        
+                /* SIDE NAV CLOSE */
+                
+        
+                .side-nav-div{
+                    margin-top: -8vw;
+                    transition: 0.5s ease;
+                    padding: 0vw;
+                    width: 100%;
+                    height: 90vh;
+                    margin-left: -100%;
+                    background: transparent;
+                    border: 1px solid #000;
+                    text-align: center;
+                   
+                }
+                .active.side-nav-div{
+                    margin-left: 0vw;
+                    transition: 0.5s ease-out;
+                    background: transparent;
+                    backdrop-filter: blur(16px);
+            
+                }
+        /*     
+                .side-nav-div ul{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    text-align: center;
+                    border: 1px solid #000;
+                    backdrop-filter: blur(16px);
+                }
+                .side-nav-div ul li a:hover{
+                    border-bottom: 2px solid #000;
+                    color: #000;
+                    
+                } */
+        
+        
+        
+        
+            /* ................................... NAV BAR ............................ */
+        
+            nav ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+                display: none;
+            }
+        
+            nav{
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+
+
+    /* ..................................... DIV-2 CONTROL ............................. */
+    #div-2-control{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid #fff;
+        width: 90%;
+        height: auto;
+        padding: 2em 0em 2em 0em;
+        justify-content: center;
+
+    }
+
+         /* ..................................... FOOTER ............................. */
+
+    /* ..................................... FOOTER MAIN ............................. */
+    footer ul{
+        height: auto;
+        padding: 1em 0em;
+        width: 100%;
+        background-color: #1c1e24;
+        margin: 10em 0em 0em 0em;
+        
+    }
+
+/* ..................................... FOOTER hr-2 ............................. */
+    #hr-2{
+        display: block;
+        margin: 40em 0em 0em 7em ;
+        width: 70%;
+        opacity: 0.4;
+    }
+
+/* ..................................... EMAIL ............................. */
+
+        .email{
+            position: absolute;
+            margin: 50em 0em 0em 5em;
+           
+            
+        }
+        .email input{
+            width: 25em;
+            height: 3em;
+            padding: 0em 1em;
+            border-radius: 0.5em;
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #b6c2d4;
+            
+        }
+        .email h3{
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #fff;
+            margin: -2em 0em 1em 0em;
+            text-align: center;
+        }
+
+        .fa-comment{
+            padding-left: 2em;
+        }
+        
+    /* ..................................... SOCIAL LINKS ............................. */
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin: 0 auto;
+        width: 20em;
+        justify-content: space-evenly;
+        margin: 40em 0em 0em 5.5em;
+        position: absolute;
+            
+    }
+    .social li a{
+        color: #fff;
+        
+    }
+    .social li{
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .social li a:hover{
+        color: #3d4fd2dc;
+        cursor: pointer;
+    } 
+
+    /* ..................................... FOOTER LINKS ............................. */
+
+    .foot-links{
+        width: 50%;
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        text-align: center;
+        margin: 20em 0em 0em 5em;
+        position: absolute;
+    }
+    .foot-links li{
+        list-style-type: none;
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .foot-links li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .foot-links li a:hover{
+        color: #3d4fd2dc;
+    }
+
+    /* ..................................... FOOTER IMG............................. */
+    #foot-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 5em 0em 0em 11em;
+        justify-content: center;
+        position: absolute;
+    }
+    #foot-img:hover{
+        border: 1px solid #fff;
+    }
+
+ 
+}
+
+
+@media (min-width: 730px) and (max-width: 799.5px){
+
+    /* ..................................... DIV-1 CONTROL h1 ............................. */
+    #div-1-control h1{
+        font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36pt;
+        color: #000;
+        margin: 2em 0em 0em 6em;
+        padding: 0.5em;
+        width:fit-content;
+        border: 1px solid #000000;
+        border-radius: 0.5em;
+    }
+
+
+            /* ................................... BURGER ............................ */
+
+            .fa-bars{
+                margin: 2em 0em 0em 3em;
+            }
+            .fa-bars:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }
+        
+          /* ................................... CROSS ............................ */
+        
+        
+            .fa-xmark{
+                margin: 2em 0em 0em 0em;
+            }
+            .fa-xmark:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }   
+            
+            /* SIDE NAV OPEN */
+            .side-nav-div{
+                width: 100%;
+                height: 90vh;
+                margin-left: -100%;
+                background: transparent;
+                border: 1px solid #000;
+                text-align: center;
+            }
+            .active.side-nav-div{
+                margin-left: 0vw;
+                transition: 0.5s ease-in-out;
+                background: transparent;
+                backdrop-filter: blur(16px);
+        
+            }
+        
+            .side-nav-div ul{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                border: 1px solid #000;
+                backdrop-filter: blur(16px);
+            }
+            .side-nav-div ul li a:hover{
+                border-bottom: 2px solid #000;
+                color: #000;
+                
+            }
+        
+                /* SIDE NAV CLOSE */
+                
+        
+                .side-nav-div{
+                    margin-top: -8vw;
+                    transition: 0.5s ease;
+                    padding: 0vw;
+                    width: 100%;
+                    height: 90vh;
+                    margin-left: -100%;
+                    background: transparent;
+                    border: 1px solid #000;
+                    text-align: center;
+                   
+                }
+                .active.side-nav-div{
+                    margin-left: 0vw;
+                    transition: 0.5s ease-out;
+                    background: transparent;
+                    backdrop-filter: blur(16px);
+            
+                }
+        /*     
+                .side-nav-div ul{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    text-align: center;
+                    border: 1px solid #000;
+                    backdrop-filter: blur(16px);
+                }
+                .side-nav-div ul li a:hover{
+                    border-bottom: 2px solid #000;
+                    color: #000;
+                    
+                } */
+        
+        
+        
+        
+            /* ................................... NAV BAR ............................ */
+        
+            nav ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+                display: none;
+            }
+        
+            nav{
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+
+
+    /* ..................................... DIV-2 CONTROL ............................. */
+    #div-2-control{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid #fff;
+        width: 100%;
+        height: auto;
+        padding: 2em 0em 2em 0em;
+        justify-content: center;
+
+    }
+
+         /* ..................................... FOOTER ............................. */
+
+    /* ..................................... FOOTER MAIN ............................. */
+    footer ul{
+        height: auto;
+        padding: 1em 0em;
+        width: 100%;
+        background-color: #1c1e24;
+        margin: 10em 0em 0em 0em;
+        
+    }
+
+/* ..................................... FOOTER hr-2 ............................. */
+    #hr-2{
+        display: block;
+        margin: 40em 0em 0em 7em ;
+        width: 80%;
+        opacity: 0.4;
+    }
+
+/* ..................................... EMAIL ............................. */
+
+        .email{
+            position: absolute;
+            margin: 50em 0em 0em 8em;
+           
+            
+        }
+        .email input{
+            width: 25em;
+            height: 3em;
+            padding: 0em 1em;
+            border-radius: 0.5em;
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #b6c2d4;
+            
+        }
+        .email h3{
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #fff;
+            margin: -2em 0em 1em 0em;
+            text-align: center;
+        }
+
+        .fa-comment{
+            padding-left: 2em;
+        }
+        
+    /* ..................................... SOCIAL LINKS ............................. */
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin: 0 auto;
+        width: 35em;
+        justify-content: space-evenly;
+        margin: 40em 0em 0em 1em;
+        position: absolute;
+            
+    }
+    .social li a{
+        color: #fff;
+        
+    }
+    .social li{
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .social li a:hover{
+        color: #3d4fd2dc;
+        cursor: pointer;
+    } 
+
+    /* ..................................... FOOTER LINKS ............................. */
+
+    .foot-links{
+        width: 50%;
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        text-align: center;
+        margin: 20em 0em 0em 5em;
+        position: absolute;
+    }
+    .foot-links li{
+        list-style-type: none;
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .foot-links li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .foot-links li a:hover{
+        color: #3d4fd2dc;
+    }
+
+    /* ..................................... FOOTER IMG............................. */
+    #foot-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 5em 0em 0em 12.5em;
+        justify-content: center;
+        position: absolute;
+    }
+    #foot-img:hover{
+        border: 1px solid #fff;
+    }
+
+ 
+}
+
+
+
+@media (min-width: 800px) and (max-width: 899.5px){
+
+    /* ..................................... DIV-1 CONTROL h1 ............................. */
+    #div-1-control h1{
+        font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36pt;
+        color: #000;
+        margin: 2em 0em 0em 7em;
+        padding: 0.5em;
+        width:fit-content;
+        border: 1px solid #000000;
+        border-radius: 0.5em;
+    }
+
+
+            /* ................................... BURGER ............................ */
+
+            .fa-bars{
+                margin: 2em 0em 0em 3em;
+            }
+            .fa-bars:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }
+        
+          /* ................................... CROSS ............................ */
+        
+        
+            .fa-xmark{
+                margin: 2em 0em 0em 0em;
+            }
+            .fa-xmark:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }   
+            
+            /* SIDE NAV OPEN */
+            .side-nav-div{
+                width: 100%;
+                height: 90vh;
+                margin-left: -100%;
+                background: transparent;
+                border: 1px solid #000;
+                text-align: center;
+            }
+            .active.side-nav-div{
+                margin-left: 0vw;
+                transition: 0.5s ease-in-out;
+                background: transparent;
+                backdrop-filter: blur(16px);
+        
+            }
+        
+            .side-nav-div ul{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                border: 1px solid #000;
+                backdrop-filter: blur(16px);
+            }
+            .side-nav-div ul li a:hover{
+                border-bottom: 2px solid #000;
+                color: #000;
+                
+            }
+        
+                /* SIDE NAV CLOSE */
+                
+        
+                .side-nav-div{
+                    margin-top: -7vw;
+                    transition: 0.5s ease;
+                    padding: 0vw;
+                    width: 100%;
+                    height: 90vh;
+                    margin-left: -100%;
+                    background: transparent;
+                    border: 1px solid #000;
+                    text-align: center;
+                   
+                }
+                .active.side-nav-div{
+                    margin-left: 0vw;
+                    transition: 0.5s ease-out;
+                    background: transparent;
+                    backdrop-filter: blur(16px);
+            
+                }
+        /*     
+                .side-nav-div ul{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    text-align: center;
+                    border: 1px solid #000;
+                    backdrop-filter: blur(16px);
+                }
+                .side-nav-div ul li a:hover{
+                    border-bottom: 2px solid #000;
+                    color: #000;
+                    
+                } */
+        
+        
+        
+        
+            /* ................................... NAV BAR ............................ */
+        
+            nav ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+                display: none;
+            }
+        
+            nav{
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+
+ 
+
+    /* ..................................... DIV-2 CONTROL ............................. */
+    #div-2-control{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid #fff;
+        width: 100%;
+        height: auto;
+        padding: 2em 0em 2em 0em;
+        justify-content: center;
+
+    }
+
+         /* ..................................... FOOTER ............................. */
+
+    /* ..................................... FOOTER MAIN ............................. */
+    footer ul{
+        height: auto;
+        padding: 1em 0em;
+        width: 100%;
+        background-color: #1c1e24;
+        margin: 10em 0em 0em 0em;
+        
+    }
+
+/* ..................................... FOOTER hr-2 ............................. */
+    #hr-2{
+        display: block;
+        margin: 40em 0em 0em 7em ;
+        width: 80%;
+        opacity: 0.4;
+    }
+
+/* ..................................... EMAIL ............................. */
+
+        .email{
+            position: absolute;
+            margin: 50em 0em 0em 11em;
+           
+            
+        }
+        .email input{
+            width: 25em;
+            height: 3em;
+            padding: 0em 1em;
+            border-radius: 0.5em;
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #b6c2d4;
+            
+        }
+        .email h3{
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #fff;
+            margin: -2em 0em 1em 0em;
+            text-align: center;
+        }
+
+        .fa-comment{
+            padding-left: 2em;
+        }
+        
+    /* ..................................... SOCIAL LINKS ............................. */
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin: 0 auto;
+        width: 35em;
+        justify-content: space-evenly;
+        margin: 40em 0em 0em 4.5em;
+        position: absolute;
+            
+    }
+    .social li a{
+        color: #fff;
+        
+    }
+    .social li{
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .social li a:hover{
+        color: #3d4fd2dc;
+        cursor: pointer;
+    } 
+
+    /* ..................................... FOOTER LINKS ............................. */
+
+    .foot-links{
+        width: 50%;
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        text-align: center;
+        margin: 20em 0em 0em 8em;
+        position: absolute;
+    }
+    .foot-links li{
+        list-style-type: none;
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .foot-links li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .foot-links li a:hover{
+        color: #3d4fd2dc;
+    }
+
+    /* ..................................... FOOTER IMG............................. */
+    #foot-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 5em 0em 0em 16em;
+        justify-content: center;
+        position: absolute;
+    }
+    #foot-img:hover{
+        border: 1px solid #fff;
+    }
+
+ 
+}
+
+@media (min-width: 900px) and (max-width: 952.5px){
+
+    /* ..................................... DIV-1 CONTROL h1 ............................. */
+    #div-1-control h1{
+        font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36pt;
+        color: #000;
+        margin: 2em 0em 0em 7em;
+        padding: 0.5em;
+        width:fit-content;
+        border: 1px solid #000000;
+        border-radius: 0.5em;
+    }
+
+
+            /* ................................... BURGER ............................ */
+
+            .fa-bars{
+                margin: 2em 0em 0em 3em;
+            }
+            .fa-bars:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }
+        
+          /* ................................... CROSS ............................ */
+        
+        
+            .fa-xmark{
+                margin: 2em 0em 0em 0em;
+            }
+            .fa-xmark:hover{
+                cursor: pointer;
+                color: #1f35dbec;
+            }   
+            
+            /* SIDE NAV OPEN */
+            .side-nav-div{
+                width: 100%;
+                height: 90vh;
+                margin-left: -100%;
+                background: transparent;
+                border: 1px solid #000;
+                text-align: center;
+            }
+            .active.side-nav-div{
+                margin-left: 0vw;
+                transition: 0.5s ease-in-out;
+                background: transparent;
+                backdrop-filter: blur(16px);
+        
+            }
+        
+            .side-nav-div ul{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: center;
+                border: 1px solid #000;
+                backdrop-filter: blur(16px);
+            }
+            .side-nav-div ul li a:hover{
+                border-bottom: 2px solid #000;
+                color: #000;
+                
+            }
+        
+                /* SIDE NAV CLOSE */
+                
+        
+                .side-nav-div{
+                    margin-top: -7vw;
+                    transition: 0.5s ease;
+                    padding: 0vw;
+                    width: 100%;
+                    height: 90vh;
+                    margin-left: -100%;
+                    background: transparent;
+                    border: 1px solid #000;
+                    text-align: center;
+                   
+                }
+                .active.side-nav-div{
+                    margin-left: 0vw;
+                    transition: 0.5s ease-out;
+                    background: transparent;
+                    backdrop-filter: blur(16px);
+            
+                }
+             
+                .side-nav-div ul{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    text-align: center;
+                    border: 1px solid #000;
+                    backdrop-filter: blur(16px);
+                }
+                .side-nav-div ul li a:hover{
+                    border-bottom: 2px solid #000;
+                    color: #000;
+                    
+                } 
+        
+        
+        
+        
+            /* ................................... NAV BAR ............................ */
+        
+            nav ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+                display: none;
+            }
+        
+            nav{
+                width: 100%;
+                height: 20vh;
+                background: transparent;
+                backdrop-filter: blur(10);
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+
+
+    /* ..................................... DIV-2 CONTROL ............................. */
+    #div-2-control{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid #fff;
+        width: 100%;
+        height: auto;
+        padding: 2em 0em 2em 0em;
+        justify-content: center;
+
+    }
+
+         /* ..................................... FOOTER ............................. */
+
+    /* ..................................... FOOTER MAIN ............................. */
+    footer ul{
+        height: auto;
+        padding: 1em 0em;
+        width: 100%;
+        background-color: #1c1e24;
+        margin: 10em 0em 0em 0em;
+        
+    }
+
+/* ..................................... FOOTER hr-2 ............................. */
+    #hr-2{
+        display: block;
+        margin: 40em 0em 0em 7em ;
+        width: 80%;
+        opacity: 0.4;
+    }
+
+/* ..................................... EMAIL ............................. */
+
+        .email{
+            position: absolute;
+            margin: 50em 0em 0em 11em;
+           
+            
+        }
+        .email input{
+            width: 25em;
+            height: 3em;
+            padding: 0em 1em;
+            border-radius: 0.5em;
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #b6c2d4;
+            
+        }
+        .email h3{
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #fff;
+            margin: -2em 0em 1em 0em;
+            text-align: center;
+        }
+
+        .fa-comment{
+            padding-left: 2em;
+        }
+        
+    /* ..................................... SOCIAL LINKS ............................. */
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin: 0 auto;
+        width: 35em;
+        justify-content: space-evenly;
+        margin: 40em 0em 0em 4.5em;
+        position: absolute;
+            
+    }
+    .social li a{
+        color: #fff;
+        
+    }
+    .social li{
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .social li a:hover{
+        color: #3d4fd2dc;
+        cursor: pointer;
+    } 
+
+    /* ..................................... FOOTER LINKS ............................. */
+
+    .foot-links{
+        width: 50%;
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        text-align: center;
+        margin: 20em 0em 0em 8em;
+        position: absolute;
+    }
+    .foot-links li{
+        list-style-type: none;
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .foot-links li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .foot-links li a:hover{
+        color: #3d4fd2dc;
+    }
+
+    /* ..................................... FOOTER IMG............................. */
+    #foot-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 5em 0em 0em 18em;
+        justify-content: center;
+        position: absolute;
+    }
+    #foot-img:hover{
+        border: 1px solid #fff;
+    }
+
+ 
+}
+
+@media (min-width: 953px) and (max-width: 1029.5px){
+
+
+        /* ................................... BURGER ............................ */
+
+    .fa-bars{
+        margin: 2em 0em 0em 3em;
+    }
+    .fa-bars:hover{
+        cursor: pointer;
+        color: #1f35dbec;
+    }
+
+  /* ................................... CROSS ............................ */
+
+
+    .fa-xmark{
+        margin: 2em 0em 0em 0em;
+    }
+    .fa-xmark:hover{
+        cursor: pointer;
+        color: #1f35dbec;
+    }   
+    
+    /* SIDE NAV OPEN */
+    .side-nav-div{
+        width: 100%;
+        height: 90vh;
+        margin-left: -100%;
+        background: transparent;
+        border: 1px solid #000;
+        text-align: center;
+    }
+    .active.side-nav-div{
+        margin-left: 0vw;
+        transition: 0.5s ease-in-out;
+        background: transparent;
+        backdrop-filter: blur(16px);
+
+    }
+
+    .side-nav-div ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        border: 1px solid #000;
+        backdrop-filter: blur(16px);
+    }
+    .side-nav-div ul li a:hover{
+        border-bottom: 2px solid #000;
+        color: #000;
+        
+    }
+
+        /* SIDE NAV CLOSE */
+        
+        .side-nav-div{
+            margin-top: -7vw;
+            transition: 0.5s ease;
+            padding: 0vw;
+            width: 100%;
+            height: 90vh;
+            margin-left: -100%;
+            background: transparent;
+            border: 1px solid #000;
+            text-align: center;
+           
+        }
+
+        .active.side-nav-div{
+            margin-left: 0vw;
+            transition: 0.5s ease-out;
+            background: transparent;
+            backdrop-filter: blur(16px);
+    
+        }
+
+
+
+
+
+    /* ................................... NAV BAR ............................ */
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 20vh;
+        background: transparent;
+        backdrop-filter: blur(10);
+        color: #000;
+        border-bottom: 1px solid #000;
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+        height: 20vh;
+        background: transparent;
+        backdrop-filter: blur(10);
+        color: #000;
+        border-bottom: 1px solid #000;
+    }
+
+    
+    /* ..................................... DIV-1 CONTROL h1 ............................. */
+    #div-1-control h1{
+        font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36pt;
+        color: #000;
+        margin: 2em 0em 0em 9em;
+        padding: 0.5em;
+        width:fit-content;
+        border: 1px solid #000000;
+        border-radius: 0.5em;
+    }
+
+        /* ..................................... FOOTER ............................. */
+
+    /* ..................................... FOOTER MAIN ............................. */
+    footer ul{
+        height: auto;
+        padding: 1em 0em;
+        width: 100%;
+        background-color: #1c1e24;
+        margin: 10em 0em 2em 0em;
+        
+        
+    }
+
+/* ..................................... FOOTER hr-2 ............................. */
+    #hr-2{
+        display: block;
+        margin: 40em 0em 0em 7em ;
+        width: 80%;
+        opacity: 0.4;
+    }
+
+/* ..................................... EMAIL ............................. */
+
+        .email{
+            position: absolute;
+            margin: 50em 0em 0em 14.5em;
+           
+            
+        }
+        .email input{
+            width: 25em;
+            height: 3em;
+            padding: 0em 1em;
+            border-radius: 0.5em;
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            background-color: #b6c2d4;
+            
+        }
+        .email h3{
+            font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: #fff;
+            margin: -2em 0em 1em 0em;
+            text-align: center;
+        }
+
+        .fa-comment{
+            padding-left: 2em;
+        }
+        
+    /* ..................................... SOCIAL LINKS ............................. */
+    .social{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin: 0 auto;
+        width: 35em;
+        justify-content: space-evenly;
+        margin: 40em 0em 0em 7em;
+        position: absolute;
+            
+    }
+    .social li a{
+        color: #fff;
+        
+    }
+    .social li{
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .social li a:hover{
+        color: #3d4fd2dc;
+        cursor: pointer;
+    } 
+
+    /* ..................................... FOOTER LINKS ............................. */
+
+    .foot-links{
+        width: 50%;
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        text-align: center;
+        margin: 20em 0em 0em 8em;
+        position: absolute;
+    }
+    .foot-links li{
+        list-style-type: none;
+        padding: 1em 0em 1em 0em;
+        
+    }
+    .foot-links li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .foot-links li a:hover{
+        color: #3d4fd2dc;
+    }
+
+    /* ..................................... FOOTER IMG............................. */
+    #foot-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 5em 0em 0em 19em;
+        justify-content: center;
+        position: absolute;
+    }
+    #foot-img:hover{
+        border: 1px solid #fff;
+    }
+
+
+}
+
+
+    
+
+@media (min-width: 1029px) and (max-width: 1280px){
+    
+        /* ................................... BURGER ............................ */
+        .side-nav-div{
+            display: none;
+        }
+        .burger{
+            display: none;
+        }
+
+        /* ................................... NAV BAR ............................ */
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20vh;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color: #000;
+    border-bottom: 1px solid #000;
+    
+}
+nav li{
+    list-style-type: none;
+    padding: 0em;
+    height: fit-content;
+    margin: 3em 0em 0em 0em;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+nav a:hover{
+    border-left: 2px solid #3d4fd2dc;
+    border-right: 2px solid #3d4fd2dc;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    padding: 0em 0.5em;
+    transition: 0.5s ease-in;
+    color: #1f35dbec;
+}
+
+
+/* ..................................... FOOTER hr-2 ............................. */
+#hr-2{
+    display: block;
+    margin: 5em 0em 0em 5em ;
+    width: 80%;
+    opacity: 0.4;
+}
+/* ..................................... FOOTER IMG............................. */
+#foot-img{
+    width: 150px;
+    height: 150px;
+    margin: 1em 0em 1em 0em;
+    border-radius: 50%;
+    margin: 5em 0em 0em 0em;
+}
+#foot-img:hover{
+    border: 1px solid #fff;
+}
+/* ..................................... FOOT-LINKS CONTROL ............................. */
+#foot-links-control{
+    width: 80%;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    padding: 0em 0em 0em 0em;
+    margin: 5em 0em 0em 7em;
+    justify-content: space-between;
+    font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* ..................................... FOOTER MAIN ............................. */
+footer ul{
+    height: 100vh;
+    width: 100%;
+    background-color: #1c1e24;
+    margin: 10em 0em 0em 0em;
+    
+}
+
+/* ..................................... FOOTER LINKS ............................. */
+
+.foot-links{
+    width: 50%;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    text-align: center;
+    margin: 5em 0em 0em 5em;
+
+}
+.foot-links li{
+    list-style-type: none;
+    padding: 1em 0em 1em 0em;
+    
+}
+.foot-links li a{
+    text-decoration: none;
+    color: #fff;
+}
+.foot-links li a:hover{
+    color: #3d4fd2dc;
+}
+
+/* ..................................... SOCIAL LINKS ............................. */
+.social{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin: 0 auto;
+    width: 35em;
+    border-left: 1.5px solid #fff;
+    border-right: 1.5px solid #fff;
+    justify-content: space-evenly;
+    margin: 5em 0em 0em 5em;
+
+
+}
+.social li a{
+    color: #fff;
+    
+}
+.social li{
+    padding: 1em 0em 1em 0em;
+    
+}
+.social li a:hover{
+    color: #3d4fd2dc;
+    cursor: pointer;
+}
+/* ..................................... EMAIL ............................. */
+.email{
+    margin: 15em 0em 0em -21.5em;
+}
+.email input{
+    width: 25em;
+    height: 3em;
+    padding: 0em 1em;
+    border-radius: 0.5em;
+    font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #b6c2d4;
+    
+}
+.email h3{
+    font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    margin: -2em 0em 1em 0em;
+    text-align: center;
+}
+
+
+/* ..................................... COPYRIGHT ............................. */
+footer ul p{
+    font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #83a4d4;
+    width: 100%;
+    text-align: center;
+    margin: 2em 0em;
+    
+}
+
+    }
