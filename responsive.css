@@ -8,13 +8,26 @@
         font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 26pt;
-        color: #000;
-        margin: 2em 0em 0em 4em;
+        font-size: 16pt;
+        color: red;
+        
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 5em auto;
+    
         padding: 0.5em;
-        width:fit-content;
+        
+        width:55%;
+        height: 35vh;
+    
         border: 1px solid #000000;
         border-radius: 0.5em;
+    }
     }
 
 
@@ -235,7 +248,6 @@
     }
 
  
-}
 
 @media (min-width: 420px) and (max-width: 519.5px){
 
@@ -244,14 +256,27 @@
         font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 36pt;
-        color: #000;
-        margin: 2em 0em 0em 3em;
+        font-size: 16pt;
+        color: red;
+        
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 5em auto;
+    
         padding: 0.5em;
-        width:fit-content;
+        
+        width:55%;
+        height: 35vh;
+    
         border: 1px solid #000000;
         border-radius: 0.5em;
     }
+    
 
 
             /* ................................... BURGER ............................ */
@@ -484,11 +509,23 @@
         font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 36pt;
-        color: #000;
-        margin: 2em 0em 0em 4.5em;
+        font-size: 16pt;
+        color: red;
+        
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 5em auto;
+    
         padding: 0.5em;
-        width:fit-content;
+        
+        width:55%;
+        height: 35vh;
+    
         border: 1px solid #000000;
         border-radius: 0.5em;
     }
@@ -718,11 +755,23 @@
         font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 36pt;
-        color: #000;
-        margin: 2em 0em 0em 5.5em;
+        font-size: 16pt;
+        color: red;
+        
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 5em auto;
+    
         padding: 0.5em;
-        width:fit-content;
+        
+        width:55%;
+        height: 35vh;
+    
         border: 1px solid #000000;
         border-radius: 0.5em;
     }
@@ -983,11 +1032,23 @@
         font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 36pt;
-        color: #000;
-        margin: 2em 0em 0em 6em;
+        font-size: 16pt;
+        color: red;
+        
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 5em auto;
+    
         padding: 0.5em;
-        width:fit-content;
+        
+        width:55%;
+        height: 35vh;
+    
         border: 1px solid #000000;
         border-radius: 0.5em;
     }
@@ -1249,11 +1310,23 @@
         font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 36pt;
-        color: #000;
-        margin: 2em 0em 0em 7em;
+        font-size: 16pt;
+        color: red;
+        
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 5em auto;
+    
         padding: 0.5em;
-        width:fit-content;
+        
+        width:55%;
+        height: 35vh;
+    
         border: 1px solid #000000;
         border-radius: 0.5em;
     }
@@ -1514,11 +1587,23 @@
         font-family: Poppins, Arial, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 36pt;
-        color: #000;
-        margin: 2em 0em 0em 7em;
+        font-size: 16pt;
+        color: red;
+        
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 5em auto;
+    
         padding: 0.5em;
-        width:fit-content;
+        
+        width:55%;
+        height: 35vh;
+    
         border: 1px solid #000000;
         border-radius: 0.5em;
     }
@@ -1885,10 +1970,22 @@
         font-style: normal;
         font-weight: 700;
         font-size: 36pt;
-        color: #000;
-        margin: 2em 0em 0em 9em;
+        color: red;
+        
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 5em auto;
+    
         padding: 0.5em;
-        width:fit-content;
+        
+        width:50%;
+        height: 35vh;
+    
         border: 1px solid #000000;
         border-radius: 0.5em;
     }
