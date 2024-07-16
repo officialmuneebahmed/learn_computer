@@ -159,4 +159,9 @@ body{
         .more{
             padding: 0em 1em 1em 0em;
         }
+
+        /* ANIMATIONS */
+        .animate__animated{
+            animation-iteration-count: infinite;
+        }
 }
