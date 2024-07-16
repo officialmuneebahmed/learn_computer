@@ -1,10 +1,5 @@
     /* MOBILE VIEW */
     @media screen and (max-width: 769px){
-        body{
-            width: 100%;
-            height: auto;
-
-        }
         
             /* MAIN CONTENTS */
         main{
@@ -12,17 +7,9 @@
             height: auto;
 
             display: grid;
-            grid-template: auto auto / 48% 48%;
-            justify-content: center;
-            justify-items: stretch;
-            align-items: center;
-            align-content: center;
-            
-            grid-auto-flow: row;
-
-            padding: 0.5em;
-
-            gap: 2%;
+            grid-template-columns: 25% 50% 25%;
+            gap: 1%;
+            padding-bottom: 2em;
             border: 1px solid #fff;
         }
 
@@ -118,6 +105,42 @@
         .navbar-links li a:hover{
             opacity: .6;
         }
+
+        .box-1{
+            background-color: rgb(227, 157, 103);
+            width: auto;
+            height: auto;
+            padding: 1em;
+            margin: 2em 0em 0em 0em;
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+        .box-2{
+            background-color: rgb(235, 225, 193);
+            width: auto;
+            height: auto;
+            padding: 1em;
+            margin: 1em 0em 0em 0em;
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+        .box-3{
+            background-color: rgb(220, 134, 6);
+            width: auto;
+            height: auto;
+            padding: 1em;
+            margin: 1em 0em 0em 0em;
+            grid-row: 3/4;
+            grid-column: 2/3;
+        }
+        .box-4{
+            background-color: rgb(141, 152, 235);
+            width: auto;
+            height: auto;
+            padding: 1em;
+            margin: 1em 0em 0em 0em;
+            grid-row: 4/5;
+            grid-column: 2/3;
+        }
     }
-    
     

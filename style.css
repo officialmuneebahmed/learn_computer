@@ -140,6 +140,10 @@ h2{
     padding: 1em;
     margin: 0.5em;
 }
+.box-2 a{
+    color: #000;
+    text-decoration: none;
+}
 .box-3{
     background-color: rgb(220, 134, 6);
     width: auto;
