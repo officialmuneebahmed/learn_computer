@@ -180,7 +180,10 @@
                 <sub>Make your Maketing Better Then Ever!</sub>
             </div>
             <div class="more">
-                Select MORE Topics : SOON ;)
+                Learn MORE Topics :
+                <a id="link-2-net-topo" href="../NETWORK TOPOLOGIES/network_topologies.html">NETWORK TOPOLOGIES</a>
+                <a id="etc" href="../NETWORK TOPOLOGIES/network_topologies.html">NOT AVAILABLE</a>
+                <a id="etc" href="../NETWORK TOPOLOGIES/network_topologies.html">NOT AVAILABLE</a>
             </div>
         </div>
 
@@ -205,6 +208,28 @@
             btn.getAttribute('href');
             btn.setAttribute('href', '#top');
             
+        }
+
+
+        // SCROLL
+        // Get the button
+        let mybutton = document.getElementById("btn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
         }
     </script>
 </html>

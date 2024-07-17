@@ -7,10 +7,10 @@
             height: auto;
 
             display: grid;
-            grid-template-columns: 25% 50% 25%;
+            grid-template-columns: 10% 80% 10%;
             gap: 1%;
             padding-bottom: 2em;
-            border: 1px solid #fff;
+            /* border: 1px solid #fff; */
         }
 
         

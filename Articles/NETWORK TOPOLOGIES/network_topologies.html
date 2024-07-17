@@ -131,7 +131,7 @@
                         This Site Run on Ads
                         Please Disable Ad-Blocker 
                         No Pop-up ADS will annoy you here. Just static ads!</strong>
-                        <br>    
+                        <br><br>    
                         <span>Thank You!</span>
                 </div>
                 <div id="ad-1">
@@ -155,7 +155,7 @@
                     <sub>Make your Maketing Better Then Ever!</sub>
                 </div>
                 <div class="more">
-                    Select MORE Topics : SOON ;)
+                    Learn MORE Topics : <a id="link-1-osi-model" href="../OSI MODEL/osi_model.html">OSI Model</a>
                 </div>
             </div>
     
@@ -178,6 +178,26 @@
             btn.getAttribute('href');
             btn.setAttribute('href', '#top');
             
+        }
+               // SCROLL
+        // Get the button
+        let mybutton = document.getElementById("btn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
         }
     </script>
 </html>
