@@ -112,11 +112,10 @@ main{
     grid-auto-flow: row;
 
     gap: 2%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
 }
 
 #heading{
-    border: 1px solid #fff;
     width: 100%;
     padding: 2em;
     text-align: left;
@@ -132,6 +131,10 @@ h2{
     height: auto;
     padding: 1em;
     margin: 0.5em;
+}
+.box-1 a{
+    color: #000;
+    text-decoration: none;
 }
 .box-2{
     background-color: rgb(235, 225, 193);

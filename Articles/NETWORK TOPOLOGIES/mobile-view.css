@@ -1,35 +1,29 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-body{
-    width: 100%;
-    height: auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: start;
-    align-items: start;
-}
-
-@media screen and (min-width: 769px){
-        
-
-        .main_content{
-
-            width: 70%;
+    /* MOBILE VIEW */
+    @media screen and (max-width: 768px){
+        body{
+            width: 100%;
             height: auto;
 
-            margin: 1em 2em;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: start;
+            align-items: start;
+        }
+        .main_content{
+
+            width: 80%;
+            height: auto;
+
+            margin: 1em;
             padding: 1em;
             line-height: 1.5em;
 
-            border: 1px solid blue; 
+            border: 1px solid blue;
         }
         .heading{
-            margin: 1em 2em;
+            width: 80%;
+            margin: 1em;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .main_content h2{
@@ -41,16 +35,16 @@ body{
         }
         .main_content p{
             font-family: serif, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: large;
         }
         .main_content p span{
             font-size: 2em;
         }
-        .main_content ul{
+        .main_content ul li{
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             list-style: inside;
         }
-        .main_content .desktop{
+
+        .main_content .mobile{
             
             width: 100%;
             height: auto;
@@ -60,13 +54,20 @@ body{
             width: 100%;
             height: auto;
         }
+        .main_content .mobile{
+            
+            width: 100%;
+            height: auto;
+            padding-bottom: 1em;
+        }
         #btn{
+            width: 5;
             position: absolute;
             z-index: 99;
             border-radius: 10px;
 
             padding: 0.5em;
-            margin: 565vh 0vw 0vh 90%;
+            margin: 765vh 0vw 0vh 80%;
 
             border: 1px solid black;
             border-radius: 5px;
@@ -75,12 +76,15 @@ body{
             color: #fff;
         }
 
-        /* ADS */
-        #ad-con{
+         /* ADS */
+         #ad-con{
             display: grid;
+            grid-template-columns: 40% 40%;
+            gap: 5%;
+            width: 100%;
+            height: 30vh;
 
-            width: 20%;
-            height: auto;
+            margin: 1em 1em;
 
         }
         #ad-con #msg{
@@ -158,10 +162,6 @@ body{
 
         .more{
             padding: 0em 1em 1em 0em;
+            
         }
-
-        /* ANIMATIONS */
-        .animate__animated{
-            animation-iteration-count: infinite;
-        }
-}
+    }
