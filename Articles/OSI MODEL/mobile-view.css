@@ -1,4 +1,28 @@
-    /* MOBILE VIEW */
+@font-face {
+    font-family: Montserret-Heading;
+    src: url(../../fonts/Montserrat-Ace-Bold.otf);
+    font-size: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserret-Sub-Heading;
+    src: url(../../fonts/Montserrat-Ace-SemiBold.otf);
+    font-size: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserret-reg;
+    src: url(../../fonts/Montserrat-Ace-Regular.otf);
+}
+@font-face {
+    font-family: Open-sans;
+    src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Open-sans-bold;
+    src: url(../../fonts/OpenSans-SemiBold.ttf);
+}
+/* MOBILE VIEW */
     @media screen and (max-width: 768px){
         body{
             width: 100%;
@@ -24,23 +48,28 @@
         .heading{
             width: 80%;
             margin: 1em;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Montserret-Heading, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .main_content h2{
             margin: 0.5em 0em;
-            font-family: sans-serif;
+            font-family: Montserret-Sub-Heading ,sans-serif;
+        }
+        .main_content h4{
+            margin: 0.5em 0em;
+            font-family: Open-sans-bold ,sans-serif;
         }
         .main_content hr{
             margin: 1em 0em;
         }
         .main_content p{
-            font-family: serif, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 32px;
+            font-family: Open-sans ,serif, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         .main_content p span{
             font-size: 2em;
         }
         .main_content ul li{
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: Montserret-reg ,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             list-style: inside;
         }
 

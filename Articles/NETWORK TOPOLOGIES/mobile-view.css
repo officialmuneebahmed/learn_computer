@@ -1,4 +1,28 @@
-    /* MOBILE VIEW */
+@font-face {
+    font-family: Montserret-Heading;
+    src: url(../../fonts/Montserrat-Ace-Bold.otf);
+    font-size: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserret-Sub-Heading;
+    src: url(../../fonts/Montserrat-Ace-SemiBold.otf);
+    font-size: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserret-reg;
+    src: url(../../fonts/Montserrat-Ace-Regular.otf);
+}
+@font-face {
+    font-family: Open-sans;
+    src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Open-sans-bold;
+    src: url(../../fonts/OpenSans-SemiBold.ttf);
+}
+/* MOBILE VIEW */
     @media screen and (max-width: 768px){
         body{
             width: 100%;
@@ -24,23 +48,23 @@
         .heading{
             width: 80%;
             margin: 1em;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Montserret-Heading,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .main_content h2{
             margin: 0.5em 0em;
-            font-family: sans-serif;
+            font-family: Open-sans-bold ,Montserret-reg,sans-serif;
         }
         .main_content hr{
             margin: 1em 0em;
         }
         .main_content p{
-            font-family: serif, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: Open-sans,serif, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         .main_content p span{
             font-size: 2em;
         }
         .main_content ul li{
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: Montserret-reg ,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             list-style: inside;
         }
 
@@ -83,7 +107,7 @@
             border-radius: 10px;
 
             padding: 0.5em;
-            margin: 1em;
+            margin: 1em 0em;
 
             border: 1px solid black;
             border-radius: 5px;
@@ -94,6 +118,30 @@
             text-decoration: none;
         }
         #link-1-osi-model:hover{
+            text-decoration: underline;
+        }
+
+        #etc{
+            width: auto;
+            z-index: 99;
+            border-radius: 10px;
+
+            padding: 0.5em;
+            margin: 0.5em 0em 0.5em 0em;
+
+            border: 1px solid black;
+            border-radius: 5px;
+
+            background-color: #0B0019;
+            color: #fff;
+
+            text-decoration: none;
+
+            pointer-events: none;
+            cursor: not-allowed;
+            
+        }
+        #etc:hover{
             text-decoration: underline;
         }
 
@@ -188,6 +236,10 @@
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: center;
-            
+        }
+
+        /* ANIMATIONS */
+        .animate__animated{
+            animation-iteration-count: infinite;
         }
     }
